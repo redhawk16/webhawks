@@ -1,0 +1,92 @@
+* {
+  color: white;
+  font-family: 'Roboto', sans-serif; }
+
+html, body {
+  background-color: #181818; }
+
+header #home {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to top left, rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.72) 150%), url("../assets/img/bg.jpg") no-repeat;
+  background-size: cover; }
+  header #home #particles-js {
+    width: 100%;
+    height: 100vh; }
+  header #home #hamburger {
+    position: absolute;
+    top: 0;
+    left: 0; }
+    header #home #hamburger .ham {
+      cursor: pointer;
+      -webkit-tap-highlight-color: transparent;
+      transition: transform 400ms;
+      -moz-user-select: none;
+      -webkit-user-select: none;
+      -ms-user-select: none;
+      user-select: none; }
+      header #home #hamburger .ham .top, header #home #hamburger .ham .bottom {
+        stroke-dasharray: 40 121; }
+      header #home #hamburger .ham.active .top, header #home #hamburger .ham.active .bottom {
+        stroke-dashoffset: -68px; }
+    header #home #hamburger .hamRotate.active {
+      transform: rotate(45deg); }
+    header #home #hamburger .line {
+      fill: none;
+      transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+      stroke: white;
+      stroke-width: 3.7;
+      stroke-linecap: round; }
+  header #home #default {
+    position: absolute;
+    width: 100%;
+    padding: 1rem 10vw 0;
+    height: auto; }
+    header #home #default .logo {
+      float: left; }
+    header #home #default ul {
+      float: right;
+      list-style-type: none;
+      text-align: center;
+      margin: 0; }
+    header #home #default li {
+      list-style: none;
+      display: inline-block;
+      padding: 0 1em; }
+    header #home #default .active a {
+      color: white; }
+    header #home #default a {
+      text-decoration: none;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #D1D1D1;
+      transition: all .3s ease; }
+      header #home #default a:hover {
+        color: white; }
+  header #home .content {
+    position: absolute;
+    top: 32vh;
+    width: 100%;
+    text-align: center; }
+    header #home .content .pfirst {
+      color: #D1D1D1;
+      font-size: 2.375rem;
+      font-weight: 200;
+      letter-spacing: 1.2px;
+      line-height: 1.3em;
+      margin-bottom: 2.5rem; }
+      header #home .content .pfirst span {
+        font-size: 3rem;
+        font-weight: 400; }
+    header #home .content .psecond {
+      color: white;
+      font-size: 2.5rem;
+      font-weight: 200;
+      letter-spacing: 1.2px;
+      line-height: 1.3em; }
+
+#about, #portfolio, #contacts {
+  width: 100%;
+  height: 100vh; }
+
+/* Media Query */

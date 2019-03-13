@@ -1,0 +1,51 @@
+* { box-sizing: border-box; color: #fff;}
+
+body { background-color: #181818; margin: 0; overflow-x: hidden;}
+
+.hamburger { 
+	overflow: hidden;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	cursor: pointer; 
+	font-size: 24px;
+	font-weight: 600;
+	z-index: 4;
+}
+
+#hamburger-menu {
+	overflow: hidden;
+	background-color: #232d35;
+	margin: 0;
+ 	width: 100vw;
+ 	height: 100vh;
+ 	position: absolute;
+ 	z-index: 3;
+ 	transition: all ease-in-out .5s, opacity 1000ms;
+}
+
+.hamburger-menu--show {
+	opacity: 1;
+ 	visibility: visible;
+ 	transform-origin: right;
+ 	transform: translateX(0%);
+}
+
+.hamburger-menu--hide {
+	opacity: 0;
+ 	visibility: hidden;
+ 	transform-origin: right;
+ 	transform: translateX(100%); 	
+}
+
+#hamburger-menu ul {
+	position: absolute;
+ 	top: 40%;
+ 	left: 40%;
+}
+
+#hamburger-menu li {
+ 	cursor: pointer;
+ 	list-style: none;
+	font-size: 64px;
+}
