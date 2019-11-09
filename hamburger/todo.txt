@@ -1,8 +1,0 @@
-﻿toDo list:
-- Сделать страницу с каждым элементом
-- На странице каждого элемента должна быть форма (ФИО, емаил), после оформления высвечивается модальное окно
-
-
-pagination https://www.youtube.com/watch?v=gdEpUPMh63s
-Proxima Nova
-webfonts.pro
